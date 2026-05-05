@@ -1,0 +1,10 @@
+# Compiled Executable
+compiler
+
+# Flex/Bison Generated Files
+lex.yy.c
+parser.tab.c
+parser.tab.h
+
+# Object files (just in case)
+*.o
