@@ -68,3 +68,8 @@ The repository only contains handwritten source code. Generated tool files are m
 To build the project, simply use the provided `Makefile`. This will generate the necessary Flex/Bison files and compile the executable.
 ```bash
 make
+```
+### Running the Compiler
+You can pipe a source file directly into the compiler:
+```bash
+./compiler < tests/test_full.txt
