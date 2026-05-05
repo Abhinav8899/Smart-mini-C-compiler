@@ -1,0 +1,31 @@
+// Function: add two integers
+func int add(int a, int b) {
+    return a + b;
+}
+
+// Function: greet with a string
+func void greet(string name) {
+    print(name);
+}
+
+// Function: constant folding demo
+func int compute() {
+    int x = 3 + 5;
+    int y = x * 2;
+    return y;
+}
+
+// Main logic
+int result;
+result = add(10, 20);
+print(result);
+
+float pi = 3.14;
+float r  = 2.0;
+float area = pi * r * r;
+print(area);
+
+bool flag = true;
+if (flag) {
+    greet("Hello, world!");
+}

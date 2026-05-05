@@ -1,0 +1,15 @@
+// Test: undeclared variable with suggestion
+int counter;
+count = 10;
+
+// Test: type mismatch
+int num;
+num = 3.14;
+
+// Test: wrong logical operator usage
+int x;
+int y;
+x = 5;
+y = 3;
+bool result;
+result = x && y;

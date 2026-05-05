@@ -1,0 +1,102 @@
+// ==========================================
+// Full feature showcase
+// ==========================================
+
+// Functions
+func int factorial(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+func int max(int a, int b) {
+    if (a > b) {
+        return a;
+    }
+    return b;
+}
+
+func bool is_even(int n) {
+    return n % 2 == 0;
+}
+
+// Variables and types
+int x = 10;
+int y = 3 + 4;
+float pi = 3.14;
+bool flag = true;
+string msg = "done";
+
+// Constant folding — these collapse at compile time
+int folded = 100 / 4;
+bool bfold = true && true;
+
+// Arithmetic
+x += 5;
+y *= 2;
+
+// Scoped block
+{
+    int local = 42;
+    print(local);
+}
+
+// For loop
+int sum;
+sum = 0;
+int i;
+for (i = 0; i < 5; i = i + 1) {
+    sum = sum + i;
+}
+print(sum);
+
+// Do-while
+int cnt;
+cnt = 3;
+do {
+    cnt = cnt - 1;
+} while (cnt > 0);
+
+// Switch
+int grade = 2;
+switch (grade) {
+    case 1:
+        print(1);
+        break;
+    case 2:
+        print(2);
+        break;
+    default:
+        print(0);
+        break;
+}
+
+// Arrays
+int scores[4];
+scores[0] = 10;
+scores[1] = 20;
+scores[2] = 30;
+scores[3] = 40;
+
+int total = 0;
+for (i = 0; i < 4; i = i + 1) {
+    total = total + scores[i];
+}
+print(total);
+
+// Function calls
+int f5 = factorial(5);
+print(f5);
+
+int m = max(x, y);
+print(m);
+
+bool even = is_even(x);
+print(even);
+
+// Cast
+float ratio = (float)sum / (float)total;
+print(ratio);
+
+print(msg);

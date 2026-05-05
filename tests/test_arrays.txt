@@ -1,0 +1,24 @@
+// Arrays: fill and sum
+int arr[5];
+int i;
+int sum;
+
+// Fill array with squares
+for (i = 0; i < 5; i = i + 1) {
+    arr[i] = i * i;
+}
+
+// Sum the array
+sum = 0;
+for (i = 0; i < 5; i = i + 1) {
+    sum = sum + arr[i];
+}
+
+print(sum);
+
+// Array of floats
+float fv[3];
+fv[0] = 1.5;
+fv[1] = 2.5;
+fv[2] = 3.0;
+print(fv[1]);
