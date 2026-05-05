@@ -1,7 +1,7 @@
 # Enhanced Front-End Design of a Mini-Compiler
 
 **Authors:** Abhinav & Aditya Singh  
-**Status:** Phase 2 Complete (Front-End & Middle-End)
+**Status:** Front-End & Middle-End Complete
 
 ---
 
